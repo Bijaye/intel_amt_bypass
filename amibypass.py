@@ -5,7 +5,7 @@ import sys
 if len(sys.argv) > 1:
    ip = str(sys.argv[1])
 else:
-   ip = '10.42.0.52'
+   ip = '168.235.84.117'
 
 url = 'http://'+ip+':16992/index.htm'
 req = requests.get(url)
